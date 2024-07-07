@@ -16,27 +16,19 @@
 
 ### Session 4: Jinja2 Templating and Displaying Movies
 
-- Introduction to Jinja2 templating engine
-- Creating basic HTML templates for the movie catalogue
-    - Home page to list movies
-    - Movie details page
+- [[Introduction to Jinja2 templating engine]]
+- [[Creating basic HTML templates for the movie catalogue]]
 
 ### Session 5: Adding Cast and Reviews
 
-- Implementing Create and Read operations for cast and reviews
-- Updating the movie details page to display cast and reviews
-
+- [[Implementing add Movie functionality]]
+- [[Implementing Create operations for cast and reviews]]
 ### Session 6: Updating and Deleting Movies, Cast, and Reviews
 
-- Implementing Update and Delete operations for movies, cast, and reviews
-    - Adding routes for updating and deleting entries
-- Updating the front end to include buttons/links for editing and deleting
+- [[Implementing Update and Delete operations for movies]]
 ### Session 7: Deployment and Final Project Review
 
 - Preparing the application for deployment
     - Using a WSGI server (e.g., Gunicorn)
 - Deploying the Flask app
     - Deploying to a cloud service like Heroku, AWS, or DigitalOcean
-- Final project review and Q&A
-    - Addressing any remaining issues
-    - Discussing potential improvements and next steps

@@ -5,7 +5,7 @@ In the `movies.html` add a button
 ```
 ## Create the HTML Form
    - **Template (`add_movie.html`)**:
-     ```html
+```html
      <!-- Jinja Extends code -->
          <h1>Add a New Movie</h1>
          <form action="/add_movie" method="post">
@@ -40,19 +40,19 @@ In the `movies.html` add a button
       function addCastMember() {
         var castDiv = document.getElementById('cast-members');
         var newCast = document.createElement('div');
-        newCast.innerHTML = `
+        newCast.innerHTML = \`
           <select name="cast_member">
             {% for cast in cast_members %}
               <option value="{{ cast._id }}">{{ cast.name }}</option>
             {% endfor %}
           </select>
           <input type="text" name="role" placeholder="Role">
-        `;
+        \`;
         castDiv.appendChild(newCast);
       }
     </script>
     <!-- Jinja extends end -->
-     ```
+```
 
 ## Handle Form Submission in Flask
    - **Route to Display Form:**

@@ -64,7 +64,7 @@ In the `movies.html` add a button
      ```
 
    - **Route to Handle Form Submission:**
-     ```python
+```python
      @app.route('/add_movie', methods=['POST'])
 	def add_movie_post():
 	    title = request.form['title']
@@ -93,4 +93,4 @@ In the `movies.html` add a button
 	
 	    mongo.db.movies.insert_one(movie)
 	    return redirect('/movies')
-     ```
+```

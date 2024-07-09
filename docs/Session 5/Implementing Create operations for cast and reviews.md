@@ -51,7 +51,7 @@ Add a add review button on the movie information page
              {'_id': ObjectId(movie_id)},
              {'$push': {'reviews': review}}
          )
-         return redirect(f'/movies/{movie_id}/view_reviews')
+         return redirect(f'/movies/{movie_id}')
      ```
 
 ## Implementation of Cast creation

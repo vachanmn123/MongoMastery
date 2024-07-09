@@ -6,8 +6,8 @@ Add a add review button on the movie information page
 ### Create the HTML Form:
    - **Form Fields**: User, Rating, Comment.
    - **Template (`add_review.html`)**:
-     ```html
-     <!-- Jinja extends -->
+```html
+<!-- Jinja extends -->
          <h1>Add a New Review for <!-- Jinja Movie Name --></h1>
          <form action="/movies/(jinja movie id)/add_review" method="post">
            <label for="user">User:</label>
@@ -21,8 +21,8 @@ Add a add review button on the movie information page
 
            <button type="submit">Add Review</button>
          </form>
-    <!-- Jinja close -->
-     ```
+<!-- Jinja close -->
+```
 
 ### Handle Form Submission in Flask
    - **Route to Display Form:**
